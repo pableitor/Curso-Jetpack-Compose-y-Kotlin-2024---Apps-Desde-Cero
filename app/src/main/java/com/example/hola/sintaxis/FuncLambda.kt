@@ -2,7 +2,7 @@ package com.example.hola.sintaxis
 
 fun main(){
 
-    mylambda(27,"Pablo",{mensaje -> println(mensaje)})
+    mylambda(27,"Paul",{mensaje -> println(mensaje)})
 }
 
 fun mylambda(edad:Int, nombre:String, felicitar:(String)  -> Unit){
